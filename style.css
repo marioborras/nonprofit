@@ -157,3 +157,18 @@ footer p {
   display: inline;
   color: #eee;
 }
+/* For About_us */
+.container .photo {
+  width: 720px;
+  height: 280px;
+  float: left;
+  background: url("nonprofit.jpg");
+}
+.stats {
+  
+  float: left;
+  
+}
+p {
+  clear: both;
+}
