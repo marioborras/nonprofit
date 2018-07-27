@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: #555;
+}
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  box-shadow: 0 6px 6px -4px #49783c;
+  margin-bottom: 2rem;
+}
+.container {
+  width: 80%;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.navbar .container .logo {
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 500;
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  color: yellowgreen;
+  padding-bottom: 10px;
+}
+.container .logo img {
+  width: 70%;
+}
+.navbar .container .nav-items {
+  font-weight: 500;
+  float: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.navbar .container .nav-items ul {
+  padding-bottom: 0;
+}
+.navbar .container .nav-items ul li {
+  display: inline;
+  padding: 0.5rem;
+  list-style: none;
+}
+.navbar .container .nav-items ul li a {
+  text-decoration: none;
+  color: #155091;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.navbar .container .nav-items ul li a:hover {
+  color: #c1d62e;
+}
+.banner-section {
+  height: 400px;
+  /* background: #eee; */
+  margin-bottom: 4rem;
+}
+.banner {
+  width: 80%;
+  height: 400px;
+  margin: 0 auto;
+  background: #eee;
+}
+.banner .left-side {
+  width: 40%;
+  height: 100%;
+  float: left;
+  padding-left: 5rem;
+}
+.banner .left-side h1 {
+  font-weight: 100;
+  font-size: 3rem;
+  margin-top: 5rem;
+  margin-bottom: 0;
+  color: #155091;
+  width: 75%;
+}
+.banner .left-side p {
+  font-weight: 300;
+  font-size: 0.9rem;
+  color: #555;
+  width: 50%;
+  font-weight: 500;
+}
+button {
+  height: 30px;
+  background: #155091;
+  color: #c1d62e;
+  border-radius: 10%;
+  font-weight: bold;
+}
+.banner .right-side {
+  width: 60%;
+  height: 100%;
+  float: right;
+}
+.banner .right-side img {
+  height: 90%;
+  padding-right: 7rem;
+  /* margin-top: 0.9rem; */
+  margin: 1rem auto;
+  box-shadow: 6px 6px 4px -2px #777;
+}
+
+.third-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.third-container .center {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 1.8rem;
+  font-size: 1rem;
+}
+.last-para #one-of-two {
+  float: left;
+  width: 40%;
+  padding: 3rem;
+  font-size: 1rem;
+}
+.last-para #two-of-two {
+  float: right;
+  width: 40%;
+  padding: 3rem;
+  font-size: 1rem;
+}
+
+.last-para h3 {
+  color: #155091;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+footer {
+  width: 100%;
+  height: 100px;
+  background: #777;
+  clear: both;
+}
+footer .footer-logo {
+  background: url("logo-mobile.png");
+  background-repeat: no-repeat;
+  float: right;
+  width: 10%;
+  height: 100px;
+}
+footer p {
+  display: inline;
+  color: #eee;
+}
